@@ -1,0 +1,8 @@
+*libs/
+*css/
+*bower_components/
+*node_modules/
+qunit/config.js
+*.svn/
+*.settings/
+.project
