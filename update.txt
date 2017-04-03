@@ -1,0 +1,1 @@
+( sudo echo; cd '/Ember Library/Ember satellite projects/jdownloader'; egup-single .; git tag -a v20170402.2_pre4; egup-single .; cd ../wreathe-overlay; repoman manifest; egup-single .; sudo layman -s wreathe-overlay; sudo emerge jdownloader )
